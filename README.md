@@ -24,6 +24,8 @@ Our group design consist of 6 server. which is
 load balancer , 1 Hadoop master node, 2 Hadoop slave node and 2 web server.
 
  The Load Balancer will balance the load from the Hadoop Cluster and Web Server. In our design the input will be received from the Frontend and will be relay to the Hadoop cluster to be process by pig. So we install the NodeJS server inside the master node for easy connection between webserver and the hadoop cluster.
+ 
+ ![System Architecture](img/diagram.jpeg)
 ### Group Member
 - Supason Kotanut 5610546800 Github : [XMistralX](https://github.com/XMistralX/)
 Contribution : Frontend
